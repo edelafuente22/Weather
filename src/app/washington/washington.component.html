@@ -1,0 +1,8 @@
+<fieldset>
+  <h2>Washington, DC</h2>
+  <h4>Humidity: {{ weather.main.humidity }}%</h4>
+  <h4>Temperature (Average): {{ weather.main.temp * 9/5 - 459.67 }}</h4>
+  <h4>Temperature (High): {{ weather.main.temp_max * 9/5 - 459.67 }}</h4>
+  <h4>Temperature (Low): {{ weather.main.temp_min * 9/5 - 459.67 }}</h4>
+  <h4>Status: {{ weather.weather[0].description }}</h4>
+</fieldset>
